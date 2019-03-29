@@ -30,8 +30,8 @@ public class MainActivity extends AppCompatActivity {
             String text1=met_user.getText().toString();
             String text2=met_email.getText().toString();
             Intent mIntent =new Intent(MainActivity.this, NewActivity.class);
-            mIntent.putExtra(appConstant.TEXT_KEY, text1);
-            mIntent.putExtra(appConstant.TEXT_KEY, text2);
+            mIntent.putExtra(appConstant.TEXT_User, text1);
+            mIntent.putExtra(appConstant.TEXT_Email, text2);
             startActivity(mIntent);
 
 

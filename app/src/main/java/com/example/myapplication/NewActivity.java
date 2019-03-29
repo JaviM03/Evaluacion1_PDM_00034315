@@ -15,11 +15,16 @@ public class NewActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new);
-        mTv_email=findViewById(R.id.et_email);
-        mTv_user=findViewById(R.id.et_user);
-        Intent mIntent2=getIntent();
+        mTv_email=findViewById(R.id.Tv_email);
+        mTv_user=findViewById(R.id.Tv_user);
+        Intent mIntent=getIntent();
+
+
+        if (mIntent!=null ) {
+            mTv_user.setText(mIntent.getStringExtra(appConstant.TEXT_User));
+            mTv_email.setText(mIntent.getStringExtra(appConstant.TEXT_Email));
 
 
         }
     }
-
+}
