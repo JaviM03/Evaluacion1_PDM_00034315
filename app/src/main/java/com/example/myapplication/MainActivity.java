@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         mbtn_send =findViewById(R.id.btn_send);
         met_user=findViewById(R.id.et_user);
         met_email=findViewById(R.id.et_email);
-
+        mbtn1=findViewById(R.id.btn1);
         mbtn_send.setOnClickListener(v->{
             String text1=met_user.getText().toString();
             String text2=met_email.getText().toString();
@@ -33,6 +33,14 @@ public class MainActivity extends AppCompatActivity {
             mIntent.putExtra(appConstant.TEXT_User, text1);
             mIntent.putExtra(appConstant.TEXT_Email, text2);
             startActivity(mIntent);
+
+
+
+
+
+        });
+
+        mbtn1.setOnClickListener(v->{
 
 
         });
