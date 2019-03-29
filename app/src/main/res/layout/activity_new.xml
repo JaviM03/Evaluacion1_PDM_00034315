@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FACTURA"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total de productos "/>
+
+    </LinearLayout>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/btn1"
+            android:layout_column="0"
+            android:background="@color/colorPrimary"
+            android:layout_row="0"
+            android:layout_margin="@dimen/margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producto n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#"
+                android:layout_gravity="center"
+                android:id="@+id/tv_btn_1"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/btn2"
+            android:layout_column="1"
+            android:background="@color/colorAccent"
+            android:layout_row="0"
+            android:layout_margin="@dimen/margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producto n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#"
+                android:layout_gravity="center"
+                android:id="@+id/tv_btn_2"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="@dimen/margin"
+            android:orientation="vertical"
+            android:id="@+id/btn3"
+            android:layout_column="2"
+            android:background="@color/colorPrimaryDark"
+            android:layout_row="0">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producto n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#"
+                android:layout_gravity="center"
+                android:id="@+id/tv_btn_3"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="@dimen/margin"
+            android:orientation="vertical"
+            android:id="@+id/tv_btn_4"
+            android:layout_column="0"
+            android:background="@color/colorPrimary"
+            android:layout_row="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producto n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#"
+                android:layout_gravity="center"
+                android:id="@+id/tv_btn4"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_margin="@dimen/margin"
+            android:orientation="vertical"
+            android:id="@+id/btn5"
+            android:layout_column="1"
+            android:background="@color/colorAccent"
+            android:layout_row="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producto n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#"
+                android:layout_gravity="center"
+                android:id="@+id/tv_btn_5"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="@dimen/margin"
+            android:orientation="vertical"
+            android:id="@+id/btn6"
+            android:layout_column="2"
+            android:background="@color/colorPrimaryDark"
+            android:layout_row="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producto n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#"
+                android:layout_gravity="center"
+                android:id="@+id/tv_btn_6"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="@dimen/margin"
+            android:orientation="vertical"
+            android:id="@+id/btn7"
+            android:layout_column="0"
+            android:background="@color/colorPrimary"
+            android:layout_row="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producto n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#"
+                android:layout_gravity="center"
+                android:id="@+id/tv_btn_7"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_margin="@dimen/margin"
+            android:orientation="vertical"
+            android:id="@+id/btn8"
+            android:layout_column="1"
+            android:background="@color/colorAccent"
+            android:layout_row="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producto n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#"
+                android:layout_gravity="center"
+                android:id="@+id/tv_btn_8"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="@dimen/margin"
+            android:orientation="vertical"
+            android:id="@+id/btn9"
+            android:layout_column="2"
+            android:background="@color/colorPrimaryDark"
+            android:layout_row="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producto n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#"
+                android:layout_gravity="center"
+                android:id="@+id/tv_btn_9"/>
+
+        </LinearLayout>
+
+    </GridLayout>
+
+
+
+</LinearLayout>
